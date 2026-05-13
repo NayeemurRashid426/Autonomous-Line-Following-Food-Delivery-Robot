@@ -1,104 +1,122 @@
-Design and Implementation of an Autonomous Line Following Food Delivery Robot for Smart Restaurant Services
+# 🤖 Autonomous Line Following Food Delivery Robot for Smart Restaurant Services
 
-Overview
+An intelligent autonomous food delivery robot designed to enhance smart restaurant services by delivering food efficiently through line-following navigation using PD control algorithms.
 
-This project presents the design and implementation of an autonomous line-following food delivery robot developed for smart restaurant environments. The robot is capable of delivering food automatically from the kitchen to customer tables by following predefined paths using IR sensors and embedded control systems.
+---
 
-The system is designed to reduce human effort, improve service efficiency, and introduce smart automation into restaurant management systems. The robot can detect lines, control movement automatically, and avoid obstacles during navigation.
+## 📸 Robot Overview
 
-⸻
+![Robot Photo](robot.jpg)
 
-Features
+*Figure 1: Fully assembled autonomous food delivery robot*
 
-* Autonomous line-following system
-* Automatic food delivery mechanism
-* IR sensor-based path tracking
-* Obstacle detection using ultrasonic sensor
-* Arduino Nano/Uno based control system
-* Smooth motor control using motor driver
-* Low-cost and energy-efficient design
-* Suitable for indoor smart restaurant automation
+---
 
-⸻
+## 🧠 System Flowchart
 
-Hardware Components
+![Flowchart](flowchart.jpg)
 
-* Arduino Nano / Arduino Uno
-* IR Sensor Array
-* Ultrasonic Sensor (HC-SR04)
-* L298N Motor Driver
-* DC Gear Motors
-* Robot Chassis and Wheels
-* Rechargeable Battery
-* Jumper Wires
-* Food Carrying Platform
+*Figure 2: Decision-making and navigation flowchart of the robot*
 
-⸻
+---
 
-Software Used
+## 🔌 System Block Diagram
 
-* Arduino IDE
-* Embedded C/C++ Programming Language
+![Block Diagram](blockdiagram.jpg)
 
-⸻
+*Figure 3: Hardware architecture and component connection diagram*
 
-Working Principle
+---
 
-The robot follows a black line path placed on the floor using IR sensors. The sensor data is continuously processed by the Arduino microcontroller, which controls the movement of the motors through the motor driver module.
+# 📋 Project Description
 
-The ultrasonic sensor detects nearby obstacles and helps prevent collisions by stopping or adjusting the robot’s movement.
+This project presents the design and implementation of an autonomous line-following food delivery robot developed for smart restaurant environments. The robot is capable of detecting and following a predefined path autonomously while transporting food items from the kitchen to customer tables.
 
-Operation Steps
+The system is built using the Arduino Uno microcontroller and integrates multiple sensors and motor control mechanisms to achieve accurate navigation. A 5-channel IR sensor array continuously detects the path, while a PD (Proportional-Derivative) control algorithm ensures smooth and stable movement by dynamically adjusting motor speed based on positional error.
 
-1. IR sensors detect the guiding line.
-2. Arduino processes sensor signals.
-3. Motor driver controls wheel movement.
-4. Robot follows the predefined path automatically.
-5. Ultrasonic sensor checks for obstacles.
-6. Robot safely delivers food to the destination.
+The robot is designed to improve service efficiency, reduce human workload, and demonstrate practical applications of embedded systems and robotics in automated restaurant services.
 
-⸻
+---
 
-Applications
+# ✨ Key Features
 
-* Smart Restaurants
-* Hotels
-* Cafeterias
-* Hospitals
-* Indoor Delivery Systems
-* Service Automation Systems
+- Autonomous line-following navigation
+- Smart path detection using 5-channel IR sensors
+- Stable movement using PD control algorithm
+- Differential motor speed control
+- Compact and efficient hardware design
+- Suitable for smart restaurant automation systems
 
-⸻
+---
 
-Advantages
+# ⚙️ Hardware Components
 
-* Reduces manual workload
-* Improves delivery efficiency
-* Fast and reliable service
-* Low operational cost
-* Easy implementation and maintenance
-* Contactless delivery capability
+| Component | Quantity |
+|-----------|----------|
+| Arduino Uno | 1 |
+| 5-Channel IR Sensor Array | 1 |
+| L298N Motor Driver Module | 1 |
+| N20 DC Gear Motor | 2 |
+| Robot Chassis | 1 |
+| Battery Box | 1 |
+| Wheels | 2 |
+| Caster Wheel | 1 |
 
-⸻
+---
 
-Future Improvements
+# 🛠️ Technologies Used
 
-* RFID or QR code table recognition
-* Mobile app integration
-* IoT-based monitoring system
-* Voice command support
-* AI-based navigation system
-* Automatic charging dock
+- Embedded Systems
+- Arduino Programming
+- Robotics
+- PD Control Algorithm
+- Sensor-Based Navigation
+- Motor Speed Control
 
-⸻
+---
 
-Conclusion
+# 🚀 Working Principle
 
-This project successfully demonstrates an autonomous robotic system capable of following designated paths and delivering food efficiently in smart restaurant environments. The implementation highlights the practical application of robotics, embedded systems, and automation technologies in modern service industries.
+1. The IR sensor array continuously detects the black guiding line.
+2. Sensor readings are processed by the Arduino Uno.
+3. The robot calculates positional error based on sensor input.
+4. A PD controller computes the correction value.
+5. Motor speeds are adjusted dynamically through the L298N motor driver.
+6. The robot follows the path smoothly and autonomously.
 
-⸻
+---
 
-Developed By
+# 🎯 Project Objectives
 
-Academic Engineering Project
-Focused on Robotics, Embedded Systems, and Smart Automation Technologies.
+- Develop an autonomous delivery system for smart restaurants
+- Improve food serving efficiency
+- Reduce manual labor in restaurant operations
+- Demonstrate practical implementation of robotics and automation
+- Apply embedded systems and control engineering concepts
+
+---
+
+# 🔬 Future Improvements
+
+- Obstacle detection and avoidance
+- Bluetooth/Wi-Fi remote monitoring
+- Table number recognition system
+- Voice announcement system
+- Automatic charging dock
+- AI-based route optimization
+
+---
+
+# 👨‍💻 Author
+
+Mohammad Nayeemur Rashid 
+Department of Computer Science and Engineering  
+Port City International University
+
+---
+
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
