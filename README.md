@@ -6,7 +6,7 @@ An intelligent autonomous food delivery robot designed to enhance smart restaura
 
 ## 📸 Robot Overview
 
-![Robot Photo](robot.jpg)
+![Robot Photo](robot.jpg.JPG)
 
 *Figure 1: Fully assembled autonomous food delivery robot*
 
@@ -14,7 +14,7 @@ An intelligent autonomous food delivery robot designed to enhance smart restaura
 
 ## 🧠 System Flowchart
 
-![Flowchart](flowchart.jpg)
+![Flowchart](flowchart.jpg.JPG)
 
 *Figure 2: Decision-making and navigation flowchart of the robot*
 
@@ -22,7 +22,7 @@ An intelligent autonomous food delivery robot designed to enhance smart restaura
 
 ## 🔌 System Block Diagram
 
-![Block Diagram](blockdiagram.jpg)
+![Block Diagram](blockdiagram.jpg.JPG)
 
 *Figure 3: Hardware architecture and component connection diagram*
 
